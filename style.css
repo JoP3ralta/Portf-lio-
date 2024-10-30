@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+:root {
+    --gradiente: linear-gradient(to right, #007263, #00e0c2);
+
+}
+
+
+/* PADRAO */
+* {
+    font-size: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* corpo */
+
+body {
+    background-color: #eae2cf;
+}
+
+
+/* navbar */
+nav {
+    background-image: var(--gradiente);
+    padding: 1.2rem;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+    color: white;
+
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+}
+
+li {
+    list-style-type: none;
+    font-size: 1.2rem;
+
+
+}
+
+li {
+    display: inline-block;
+
+
+}
+
+li a:hover {
+    color: #013cff;
+}
+
+a:active {
+    color: #ff9901;
+}
+
+
+.meio {
+
+    display: flex;
+    float: left;
+    padding: 15px;
+    font-size: 2.4rem;
+
+
+}
+
+.nav_header
+
+/* dentro do container */
+
+div h4 {
+
+    align-items: flex;
+    float: left;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    margin-left: 6%;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+
+figure img {
+    height: 26rem;
+    margin-right: 4%;
+    float: right;
+    padding: 0.3rem;
+    border-radius: 3%;
+    border: solid 5px #007263;
+    display: inline;
+}
+
+
+.name {
+    margin-left: 3%;
+    margin-top: 2%;
+    font-size: 3rem;
+
+}
+
+.sobre {
+    text-align: left;
+    padding-left: 4%;
+    color: #3b3b3b;
+    margin-top: 17%;
+    font-size: 2.1rem;
+}
+
+.eu {
+    padding: 3%;
+    font-size: 1rem;
+    padding-right: 25%;
+    margin-right: 26%;
+
+}
+
+
+.box {
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: #ffffff;
+    border-radius: 4%;
+    padding: 5%;
+    box-shadow: 0 0 3rem #1a5570;
+}
+
+
+.tel{margin-left: 15%;}
+
+
+/* rodapé */
+
+footer {
+    padding: 28px;
+    background-image: var(--gradiente);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 3%;
+
+}
+
+.icons {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    text-align: right;
+    align-items: center;
+
+}
+
+.text-icon {
+    align-items: center;
+    align-items: center;
+    width: 50%;
+}
+
+.icons img {
+    width: 2rem;
+    height: 2rem;
+
+}
+
+.icons a {
+    padding: 0
+}
+
+.icons img:hover {
+    transform: scale(1.1);
+}
+
+.text-icon {
+    display: flex;
+    text-align: center;
+}
