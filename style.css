@@ -8,7 +8,6 @@
 
 /* PADRAO */
 * {
-    font-size: 100%;
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
@@ -25,7 +24,7 @@ body {
 /* navbar */
 nav {
     background-image: var(--gradiente);
-    padding: 1.2rem;
+    padding: 1.5rem;
     width: 100%;
 }
 
@@ -72,12 +71,9 @@ a:active {
     float: left;
     padding: 15px;
     font-size: 2.4rem;
-
-
 }
 
 .nav_header
-
 /* dentro do container */
 
 div h4 {
@@ -97,37 +93,37 @@ h2 {
 
 
 figure img {
-    height: 26rem;
+    height: 30rem;
     margin-right: 4%;
     float: right;
-    padding: 0.3rem;
+    padding: 0.1rem;
     border-radius: 3%;
     border: solid 5px #007263;
     display: inline;
+    box-shadow: 0 0 2rem #007263;
 }
 
 
 .name {
     margin-left: 3%;
     margin-top: 2%;
-    font-size: 3rem;
+    font-size: 2.7rem;
 
 }
 
 .sobre {
     text-align: left;
-    padding-left: 4%;
-    color: #3b3b3b;
-    margin-top: 17%;
-    font-size: 2.1rem;
+    padding-left: 8%;
+    margin-top: 9%;
+    font-size: 2.5rem;
 }
 
 .eu {
     padding: 3%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding-right: 25%;
     margin-right: 26%;
-
+    text-align: justify;
 }
 
 
@@ -143,7 +139,11 @@ figure img {
 }
 
 
-.tel{margin-left: 15%;}
+.tel {
+    margin-left: 12%;
+    margin-top: 2%;
+    font-size: 1.1rem;
+}
 
 
 /* rodapé */
